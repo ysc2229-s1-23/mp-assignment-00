@@ -30,6 +30,54 @@ Here are the problems for the assignment:
 8. **Two Knights**: Count the number of ways two knights can be placed on a k×k chessboard so that they do not attack each other.
     - Example: `two_knights(3)` should return `28`.
 
+## Poetry - Python Dependency Management
+
+Poetry is a tool for dependency management and packaging in Python. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you.
+
+### Installation
+
+Install Poetry using the following commands:
+
+- On macOS/Linux/Unix:
+
+```bash
+curl -sSL https://install.python-poetry.org | python -
+```
+
+- On Windows:
+
+```bash
+(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsin).Content | python -
+```
+
+### Using Poetry
+
+Once Poetry is installed, navigate to your project's directory. To install dependencies, use:
+
+```bash
+poetry install
+```
+
+This will install all the necessary dependencies as per the `pyproject.toml` file.
+
+### Setting Up the Virtual Environment
+
+Poetry creates a new virtual environment for each project. To use this environment, use:
+
+```bash
+poetry shell
+```
+
+This activates the virtual environment for your project.
+
+### Running Pytest
+
+With the virtual environment activated, you can run `pytest` with:
+
+```bash
+pytest
+```
+
 ## Testing
 
 This repository uses `pytest` for unit testing. Each problem has a corresponding test in the `tests` directory. To run the tests, navigate to the repository's root directory and run `pytest`.
