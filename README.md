@@ -97,7 +97,7 @@ We use GitHub Classroom's autograding feature for this assignment. The autograde
 
 ## Lecture Notes
 
-You may reference the official lecture notes on Canvas. However, if you wish to check out the unofficial lecture notes by @yokurang, you may do so [here](https://ysc2229-website.vercel.app/)
+You may reference the official lecture notes on Canvas. However, if you wish to check out some data structures and algorithms content by @yokurang, you may do so [here](https://dsa-notes-jet.vercel.app/)
 
 ## Plagiarism Notice
 
