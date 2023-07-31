@@ -1,6 +1,6 @@
 # Assignment 00 - Data Structures and Algorithms
 
-This repository contains the first problem set for YSC2229: Introduction to Data Structures and Algorithms. This first PSET is designed to test your understanding of Python. You will not need any specific knowledge of advanced data structures or algorithms. The problems involve fundamental operations such as arithmetic calculations, basic data manipulation and simple decision-making processes. Again, I emphasize that you do not need any prior knowledge of data structures or algorothms, such as dynamic programming, hashmaps, or trees, to solve these problems. Furthermore, do not worry of any of the aforementioned terms sound unfamiliar. You will learn about them in the coming weeks.
+This repository contains the first problem set for YSC2229: Introduction to Data Structures and Algorithms. This first PSET is designed to test your understanding of Python. You will not need any specific knowledge of advanced data structures or algorithms. The problems involve fundamental operations such as arithmetic calculations, basic data manipulation and simple decision-making processes. Again, I emphasize that you do not need any prior knowledge of data structures or algorithms, such as dynamic programming, hashmaps, or trees, to solve these problems. Furthermore, do not worry of any of the aforementioned terms sound unfamiliar. You will learn about them in the coming weeks.
 ## Problems
 There are 12 problems in the questions folder. The respective tests are in the tests folder. You only need to pass all of the tests to achieve a perfect score on the assignment. Your grade is calculated based on how many of the total tests you pass.
 
@@ -9,7 +9,7 @@ Please do not add, delete, or change any of the unit tests. I am able to know if
 Remember to consider all edge cases and extreme values while writing your solutions. The goal is to ensure your function works correctly under all possible scenarios it might encounter.
 
 ## Submissions
-To submit your assignment, you only need to push the code. The autograder will run all of the tests and assign a score based on the number of passing tests. You can push your code as many times as you want. The autograder will only consider your latest submission.
+To submit your assignment, you only need to push your code. The autograder will run all of the tests and assign a score based on the number of passing tests. You can push your code as many times as you want. The autograder will only consider your latest submission.
 
 ## Setting up Poetry - Python Dependency Management
 
@@ -84,7 +84,7 @@ This activates the virtual environment for your project.
 With the virtual environment activated, you can run `pytest` with:
 
 ```bash
-pytest
+poetry run pytest
 ```
 
 ## Testing
@@ -97,7 +97,7 @@ We use GitHub Classroom's autograding feature for this assignment. The autograde
 
 ## Lecture Notes
 
-You may reference the official lecture notes on Canvas. However, if you wish to check out the unofficial lecture notes by @yokurang, you may do so [here](https://ysc2229-website.vercel.app/)
+You may reference the official lecture notes on Canvas. However, if you wish to check out the unofficial lecture notes by @yokurang, you may do so [here](https://dsa-notes-jet.vercel.app/)
 
 ## Plagiarism Notice
 
