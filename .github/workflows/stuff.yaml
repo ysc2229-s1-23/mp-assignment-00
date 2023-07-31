@@ -13,6 +13,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Fail on changes
+        if: ${{ github.actor != 'github-classroom[bot]' }}
         run: |
           echo "ERROR: Please do not make changes in the 'tests' directory"
           exit 1
