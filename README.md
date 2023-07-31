@@ -1,18 +1,19 @@
-# Assignment 01 - Data Structures and Algorithms
+# Assignment 00 - Data Structures and Algorithms
 
-This repository contains assignments that focus on various data structures and algorithms problems sourced from the CSES problem set.
-
+This repository contains the first problem set for YSC2229: Introduction to Data Structures and Algorithms. This first PSET is designed to test your understanding of Python. You will not need any specific knowledge of advanced data structures or algorithms. The problems involve fundamental operations such as arithmetic calculations, basic data manipulation and simple decision-making processes. Again, I emphasize that you do not need any prior knowledge of data structures or algorothms, such as dynamic programming, hashmaps, or trees, to solve these problems. Furthermore, do not worry of any of the aforementioned terms sound unfamiliar. You will learn about them in the coming weeks.
 ## Problems
+There are 12 problems in the questions folder. The respective tests are in the tests folder. You only need to pass all of the tests to achieve a perfect score on the assignment. Your grade is calculated based on how many of the total tests you pass.
 
-In all of the problems, remember to handle edge cases and extreme values appropriately.
+Please do not add, delete, or change any of the unit tests. I am able to know if you do so through my own program which scans all of your code. If you are found to have done so, you will receive a 0 on the assignment. If you have any questions, please message the student in charge of the problem set on Telegram @yokurang.
 
-## Poetry - Python Dependency Management# Assignment 01 - Data Structures and Algorithms
+Remember to consider all edge cases and extreme values while writing your solutions. The goal is to ensure your function works correctly under all possible scenarios it might encounter.
 
-This repository contains assignments that focus on various data structures and algorithms problems sourced from the CSES problem set.
+## Submissions
+To submit your assignment, you only need to push the code. The autograder will run all of the tests and assign a score based on the number of passing tests. You can push your code as many times as you want. The autograder will only consider your latest submission.
 
 ## Setting up Poetry - Python Dependency Management
 
-Poetry is a tool for dependency management and packaging in Python. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you.
+Poetry is a tool for dependency management and packaging in Python. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you. We will use this tool to manage the dependencies for this class.
 
 For further details and troubleshooting, refer to the official [Poetry Documentation](https://python-poetry.org/docs/).
 
@@ -96,10 +97,11 @@ We use GitHub Classroom's autograding feature for this assignment. The autograde
 
 ## Lecture Notes
 
-Please refer to the link in the GitHub Classroom for the lecture notes related to these problems.
+You may reference the official lecture notes on Canvas. However, if you wish to check out the unofficial lecture notes by @yokurang, you may do so [here](https://ysc2229-website.vercel.app/)
 
 ## Plagiarism Notice
 
 We use sophisticated plagiarism detection software to ensure the integrity of the assignment submissions. Any attempt to plagiarize will result in a direct fail. Also, remember, using AI such as ChatGPT or similar to generate solutions for assignments is strictly prohibited and may also result in a direct fail.
 
-Remember, the best way to learn programming and problem solving is by doing. Good luck!
+## Contact
+For any questions, please contact the student in charge of the problem set on Telegram @yokurang.
