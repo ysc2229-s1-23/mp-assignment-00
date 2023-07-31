@@ -4,61 +4,69 @@ This repository contains assignments that focus on various data structures and a
 
 ## Problems
 
-Here are the problems for the assignment:
+In all of the problems, remember to handle edge cases and extreme values appropriately.
 
-1. **Weird Algorithm**: Write a function that takes an integer input and implements the weird algorithm. The algorithm is defined as follows: If the number is even, divide it by two. If it's odd, multiply it by three and add one. Continue this process until the number is one. The function should return a list representing the sequence of numbers.
-    - Example: `weird_algorithm(3)` should return `[3, 10, 5, 16, 8, 4, 2, 1]`.
+## Poetry - Python Dependency Management# Assignment 01 - Data Structures and Algorithms
 
-2. **Way Too Long Words**: For this problem, write a function that shortens words that are "too long". A word is considered "too long" if it has strictly more than 10 characters. All "too long" words should be shortened to the first and the last character of the word, with the number of characters removed in between them.
-    - Example: `long_words("localization")` should return `"l10n"`.
+This repository contains assignments that focus on various data structures and algorithms problems sourced from the CSES problem set.
 
-3. **Increasing Array**: Given an array of integers, modify the array so that it is increasing, i.e., every element is at least as large as the previous element. The goal is to find the minimum number of moves required, where each move increases the value of any array element by one.
-    - Example: `increasing_array(5, [3, 2, 5, 1, 7])` should return `5`.
-
-4. **Beautiful Permutations**: A permutation of integers 1, 2, ..., n is called "beautiful" if there are no adjacent elements whose difference is 1. The task is to construct a beautiful permutation if one exists.
-    - Example: `beautiful_permutations(5)` could return `[2, 4, 1, 3, 5]`.
-
-5. **Longest Repetitions**: Given a DNA sequence - a string consisting of characters A, C, G, and T - find the longest repetition in the sequence. This is a maximum-length substring containing only one type of character.
-    - Example: `longest_repetitions("ATTCGGGA")` should return `3`.
-
-6. **Missing Number**: You are given all numbers between 1, 2, ..., n except one. Your task is to find the missing number.
-    - Example: `missing_number([2, 3, 1, 5])` should return `4`.
-
-7. **Number Spiral**: A number spiral is an infinite grid whose upper-left square has number 1. The task is to find out the number in row y and column x.
-    - Example: `compute_number_spiral(3, 2)` should return `8`.
-
-8. **Two Knights**: Count the number of ways two knights can be placed on a k×k chessboard so that they do not attack each other.
-    - Example: `two_knights(3)` should return `28`.
-
-## Poetry - Python Dependency Management
+## Setting up Poetry - Python Dependency Management
 
 Poetry is a tool for dependency management and packaging in Python. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you.
 
-### Installation
+For further details and troubleshooting, refer to the official [Poetry Documentation](https://python-poetry.org/docs/).
 
-Install Poetry using the following commands:
+### Installing Poetry
 
 - On macOS/Linux/Unix:
 
-```bash
-curl -sSL https://install.python-poetry.org | python -
-```
+    ```bash
+    curl -sSL https://install.python-poetry.org | python3 -
+    ```
 
 - On Windows:
 
+    ```bash
+    (Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py -
+    ```
+
+### Add Poetry to your PATH
+
+After installation, you should add the Poetry command to your PATH. The installer creates a poetry wrapper in a well-known, platform-specific directory:
+
+- `$HOME/.local/bin` on Unix.
+- `%APPDATA%\Python\Scripts` on Windows.
+- `$POETRY_HOME/bin` if `$POETRY_HOME` is set.
+
+On Unix-based systems (like Linux or MacOS), you can add Poetry to your PATH by appending the following to your `.bashrc` or `.zshrc` file:
+
 ```bash
-(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsin).Content | python -
+export PATH="$HOME/.local/bin:$PATH"
 ```
+
+Then, source the file:
+
+```bash
+source ~/.bashrc  # or ~/.zshrc
+```
+
+On Windows, the Poetry executable should be automatically added to your PATH after installation. If it's not, you can manually add the directory `%APPDATA%\Python\Scripts` to your PATH.
 
 ### Using Poetry
 
-Once Poetry is installed, navigate to your project's directory. To install dependencies, use:
+Once Poetry is installed and in your PATH, you can execute the following to confirm the installation:
 
 ```bash
-poetry install
+poetry --version
 ```
 
-This will install all the necessary dependencies as per the `pyproject.toml` file.
+If you see something like `Poetry (version 1.2.0)`, your install is ready to use!
+
+To update Poetry to the latest version, use the self-update command:
+
+```bash
+poetry self update
+```
 
 ### Setting Up the Virtual Environment
 
