@@ -27,6 +27,7 @@ True
 Note:
 If at least one person thinks the problem is hard, the problem is considered hard.
 """
+
 from typing import List
 
 def is_easy_problem(arr: List[int]) -> bool:

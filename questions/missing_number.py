@@ -27,6 +27,7 @@ This problem can be solved efficiently by using the arithmetic series formula to
 sum of all numbers from 1 to n, then subtracting the sum of the given numbers. The result is
 the missing number.
 """
+
 from typing import List
 
 def missing_number(n: int, arr: List[int]) -> int:

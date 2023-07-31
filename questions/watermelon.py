@@ -26,6 +26,7 @@ False
 Note:
 If the watermelon weight is even and greater than 2, it can be divided into two even parts.
 """
+
 def watermelon(n: int) -> bool:
     #TODO Implement this function
     pass

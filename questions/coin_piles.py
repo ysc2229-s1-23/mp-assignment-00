@@ -36,6 +36,7 @@ by 3 because in each move, we're effectively removing 3 coins.
 Then, since we can't remove more than two coins from a pile in one move, the pile with the smaller number of coins should have
 at least one-third of the total number of coins. Otherwise, we would deplete one pile before the other.
 """
+
 def coin_piles(a: int, b: int) -> bool:
     #TODO Implement this function
     pass

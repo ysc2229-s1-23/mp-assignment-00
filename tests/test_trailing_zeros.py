@@ -10,6 +10,9 @@ def test_trailing_zeros():
     assert trailing_zeros(100) == 24
 
     assert trailing_zeros(25) == 6
+
     assert trailing_zeros(26) == 6
 
-    assert trailing_zeros(10**9) == 249998883
+    assert trailing_zeros(1000000000) == 249999998
+
+    assert trailing_zeros(850915850) == 212728957

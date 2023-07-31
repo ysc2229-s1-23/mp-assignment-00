@@ -25,6 +25,7 @@ Example:
 Here, for n=3, the sequence is as follows: 
 3 -> 10 -> 5 -> 16 -> 8 -> 4 -> 2 -> 1
 """
+
 from typing import List
 
 def weird_algorithm(n : int) -> List[int]:

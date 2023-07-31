@@ -3,9 +3,9 @@ from typing import List, Union
 
 def test_beautiful_permutations():
     assert beautiful_permutations(1) == [1]
-    assert beautiful_permutations(2) == [2, 1]
+    assert beautiful_permutations(2) == "NO SOLUTION"
     assert beautiful_permutations(3) == "NO SOLUTION"
-    assert beautiful_permutations(4) != "NO SOLUTION"
+    assert beautiful_permutations(4) == [2, 4, 1, 3]
     assert is_beautiful(beautiful_permutations(5))
     assert is_beautiful(beautiful_permutations(10))
     assert is_beautiful(beautiful_permutations(20))

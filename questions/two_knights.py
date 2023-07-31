@@ -28,6 +28,7 @@ Note:
 This problem can be solved by using combinatorics and subtracting the positions where the knights attack each other
 from all possible positions.
 """
+
 from typing import List
 
 def two_knights(n: int) -> List[int]:

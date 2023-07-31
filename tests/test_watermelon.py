@@ -8,5 +8,9 @@ def test_watermelon():
 
     assert watermelon(2) is False
     assert watermelon(4) is True
+    assert watermelon(6) is True
     assert watermelon(8) is True
+    assert watermelon(10) is True
+    assert watermelon(18) is True
+    assert watermelon(20) is True
     assert watermelon(100) is True

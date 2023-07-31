@@ -27,6 +27,7 @@ a count of the maximum repeating characters until the character changes. However
 solution needs to handle edge cases such as when the string is empty or consists of only
 a single type of character.
 """
+
 def longest_repetitions(s: str) -> int:
     # TODO: Implement this function
     pass

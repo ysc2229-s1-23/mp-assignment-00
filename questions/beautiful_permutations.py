@@ -32,6 +32,7 @@ Remember that for n = 2 or n = 3, there is no possible beautiful permutation, he
 "NO SOLUTION". For n = 1, the function should return [1] as the single number itself is a valid permutation.
 For n > 3, a valid solution does exist. The function should strive to find such a valid solution.
 """
+
 from typing import Union, List
 
 def beautiful_permutations(n: int) -> Union[str, List[int]]:

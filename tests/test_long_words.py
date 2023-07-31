@@ -15,6 +15,5 @@ def test_long_words():
     assert long_words("abbbbbbbbbb") == "a9b"
     assert long_words("bbbbbbbbbba") == "b9a"
     assert long_words("Localization") == "L10n"
-    assert long_words("a"*101) == "a99a"
-    assert long_words("!@#$%^&*()") == "!8)"
+    assert long_words("a"*101) == "a99a" 
     assert long_words("") == ""

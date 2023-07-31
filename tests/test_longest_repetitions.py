@@ -5,8 +5,8 @@ def test_longest_repetitions():
     assert longest_repetitions("ATTCGGGA") == 3
     assert longest_repetitions("AAAA") == 4
     assert longest_repetitions("ACGT") == 1
-
+    assert longest_repetitions("") == 0
     assert longest_repetitions("A") == 1  
     assert longest_repetitions("AAAACGTTTT") == 4
     assert longest_repetitions("ACGT"*10**5 + "A") == 2
-    assert longest_repetitions("A"*10**6) == 10**6 
+    assert longest_repetitions("A"*10**6) == 10**6
