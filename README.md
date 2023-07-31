@@ -93,7 +93,7 @@ This repository uses `pytest` for unit testing. Each problem has a corresponding
 
 ## Autograding
 
-We use GitHub Classroom's autograding feature for this assignment. The autograder runs all `pytest` tests and assigns a score based on the number of passing tests.
+We use GitHub Classroom's autograding feature for this assignment. The autograder runs all `pytest` tests and assigns a score based on the number of passing tests. Please DO NOT change any of the function names or the tests will fail. Furthermore, DO NOT change anything in the .github/workflows directory. If you do so, the autograder will not work and you will receive a 0 on the assignment.
 
 ## Lecture Notes
 
