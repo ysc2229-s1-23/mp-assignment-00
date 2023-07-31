@@ -1,10 +1,9 @@
 [tool.poetry]
-name = "assignment-01"
+name = "mp-assignment-00"
 version = "0.1.0"
 description = "First assignment for YSC2229"
 authors = ["You Guang <yokurang@gmail.com>"]
 readme = "README.md"
-packages = [{include = "assignment_01"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"

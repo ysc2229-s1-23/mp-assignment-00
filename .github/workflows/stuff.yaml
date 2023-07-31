@@ -1,9 +1,9 @@
-name: Detect changes in workflow files
+name: Detect changes in 'tests' directory
 
 on: 
   push:
     paths:
-      - '.github/workflows/**'
+      - 'tests/**'
 
 jobs:
   detect_changes:
@@ -14,5 +14,5 @@ jobs:
 
       - name: Fail on changes
         run: |
-          echo "ERROR: Please do not modify the GitHub workflow files"
+          echo "ERROR: Please do not make changes in the 'tests' directory"
           exit 1
