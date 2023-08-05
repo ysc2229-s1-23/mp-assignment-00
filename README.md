@@ -2,7 +2,7 @@
 
 This repository contains the first problem set for YSC2229: Introduction to Data Structures and Algorithms. This first PSET is designed to test your understanding of Python. You will not need any specific knowledge of advanced data structures or algorithms. The problems involve fundamental operations such as arithmetic calculations, basic data manipulation and simple decision-making processes. Again, I emphasize that you do not need any prior knowledge of data structures or algorithms, such as dynamic programming, hashmaps, or trees, to solve these problems. Furthermore, do not worry of any of the aforementioned terms sound unfamiliar. You will learn about them in the coming weeks.
 ## Problems
-There are 12 problems in the questions folder. The respective tests are in the tests folder. You only need to pass all of the tests to achieve a perfect score on the assignment. Your grade is calculated based on how many of the total tests you pass.
+There are 13 problems in the questions folder. The respective tests are in the tests folder. You only need to pass all of the tests to achieve a perfect score on the assignment. Your grade is calculated based on how many of the total tests you pass.
 
 Please do not add, delete, or change any of the unit tests. I am able to know if you do so through my own program which scans all of your code. If you are found to have done so, you will receive a 0 on the assignment. If you have any questions, please message the student in charge of the problem set on Telegram @yokurang.
 

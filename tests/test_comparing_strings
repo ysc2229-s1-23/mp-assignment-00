@@ -1,0 +1,7 @@
+from questions.comparing_strings import compare_strings
+
+def test_is_easy_problem():
+    assert compare_strings("xy#z", "xzz#") == True
+    assert compare_strings("xy#z", "xyz#") == False
+    assert compare_strings("xp#", "xyz##") == True
+    assert compare_strings("xywrrmp", "xywrrmu#p") == True
