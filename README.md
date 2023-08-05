@@ -105,3 +105,23 @@ We use sophisticated plagiarism detection software to ensure the integrity of th
 
 ## Contact
 For any questions, please contact the student in charge of the problem set on Telegram @yokurang.
+
+## Poetry Installation Failure
+
+Try this:
+```bash
+# Uninstall poetry
+curl -sSL https://install.python-poetry.org | python3 - --uninstall
+
+# change to required python
+pyenv local 3.10.8
+
+# activate python
+eval "$(pyenv init --path)"
+
+# check python version
+python --version
+
+# Install latest poetry
+curl -sSL https://install.python-poetry.org | python3 -
+```
