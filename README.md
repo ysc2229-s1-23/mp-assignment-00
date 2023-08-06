@@ -1,12 +1,20 @@
 # Assignment 00 - Data Structures and Algorithms
 
-This repository contains the first problem set for YSC2229: Introduction to Data Structures and Algorithms. This first PSET is designed to test your understanding of Python. You will not need any specific knowledge of advanced data structures or algorithms. The problems involve fundamental operations such as arithmetic calculations, basic data manipulation and simple decision-making processes. Again, I emphasize that you do not need any prior knowledge of data structures or algorithms, such as dynamic programming, hashmaps, or trees, to solve these problems. Furthermore, do not worry of any of the aforementioned terms sound unfamiliar. You will learn about them in the coming weeks.
+This repository contains the first problem set for YSC2229: Introduction to Data Structures and Algorithms. This first PSET is designed to test your understanding of Python. You will not need any specific knowledge of advanced data structures or algorithms. The problems involve fundamental operations such as arithmetic calculations, basic data manipulation and simple decision-making processes. Again, I emphasize that you do not need any prior knowledge of data structures or algorithms, such as dynamic programming, hashmaps, or trees, to solve these problems. Furthermore, do not worry if any of the aforementioned terms sound unfamiliar. You will learn about them in the coming weeks.
 ## Problems
-There are 13 problems in the questions folder. The respective tests are in the tests folder. You only need to pass all of the tests to achieve a perfect score on the assignment. Your grade is calculated based on how many of the total tests you pass.
+There are 14 problems in the questions folder. The respective tests are in the tests folder. You only need to pass all of the tests to achieve a perfect score on the assignment. Your grade is calculated based on how many of the total tests you pass. 
 
 Please do not add, delete, or change any of the unit tests. I am able to know if you do so through my own program which scans all of your code. If you are found to have done so, you will receive a 0 on the assignment. If you have any questions, please message the student in charge of the problem set on Telegram @yokurang.
 
 Remember to consider all edge cases and extreme values while writing your solutions. The goal is to ensure your function works correctly under all possible scenarios it might encounter.
+
+A note on the PSET: This PSET contains some easier questions and much harder ones. Some of these problems might take a few minutes depending on your proficiency in Python, and others 2 hours or more. Please do not be discouraged if you are unable to solve some of the problems. In case you are stuck, you may
+
+- Make a post in the GitHub classroom discussion board and I will answer them
+- Message the student in charge of the problem set on Telegram @yokurang
+- Email the peer tutors of the class.
+
+Furthermore, there is no particular order in which you should solve the problem. In fact, in my personal opinion, there is no order that will make the PSET easier. You may choose to solve the problems in any order you wish.
 
 ## Submissions
 To submit your assignment, you only need to push your code. The autograder will run all of the tests and assign a score based on the number of passing tests. You can push your code as many times as you want. The autograder will only consider your latest submission.
@@ -86,27 +94,7 @@ With the virtual environment activated, you can run `pytest` with:
 ```bash
 poetry run pytest
 ```
-
-## Testing
-
-This repository uses `pytest` for unit testing. Each problem has a corresponding test in the `tests` directory. To run the tests, navigate to the repository's root directory and run `pytest`.
-
-## Autograding
-
-We use GitHub Classroom's autograding feature for this assignment. The autograder runs all `pytest` tests and assigns a score based on the number of passing tests. Please DO NOT change any of the function names or the tests will fail. Furthermore, DO NOT change anything in the .github/workflows directory. If you do so, the autograder will not work and you will receive a 0 on the assignment.
-
-## Lecture Notes
-
-You may reference the official lecture notes on Canvas. However, if you wish to check out the unofficial lecture notes by @yokurang, you may do so [here](https://dsa-notes-jet.vercel.app/)
-
-## Plagiarism Notice
-
-We use sophisticated plagiarism detection software to ensure the integrity of the assignment submissions. Any attempt to plagiarize will result in a direct fail. Also, remember, using AI such as ChatGPT or similar to generate solutions for assignments is strictly prohibited and may also result in a direct fail.
-
-## Contact
-For any questions, please contact the student in charge of the problem set on Telegram @yokurang.
-
-## Poetry Installation Failure
+### Failure with Poetry Installation 
 
 Try this:
 ```bash
@@ -114,7 +102,7 @@ Try this:
 curl -sSL https://install.python-poetry.org | python3 - --uninstall
 
 # change to required python
-pyenv local 3.10.8
+pyenv local 3.10.8 #brew install pyenv if you have not done so already. For Windows users, you will need to install pyenv-win
 
 # activate python
 eval "$(pyenv init --path)"
@@ -125,3 +113,24 @@ python --version
 # Install latest poetry
 curl -sSL https://install.python-poetry.org | python3 -
 ```
+
+
+
+## Testing
+
+This repository uses `pytest` for unit testing. Each problem has a corresponding test in the `tests` directory. To run the tests, navigate to the repository's root directory and run `pytest`. To run individual tests, run `pytest tests/test_<problem_number>.py`. For example, to run the tests for the weird algorithm problem, run `pytest tests/test_weird_algorithm.py`.
+
+## Autograding
+
+We use GitHub Classroom's autograding feature for this assignment. The autograder runs all `pytest` tests and assigns a score based on the number of passing tests. Please DO NOT change any of the function names or the tests will fail. Furthermore, DO NOT change anything in the .github/workflows directory. If you do so, the autograder will not work and you will receive a 0 on the assignment.
+
+## Lecture Notes
+
+You may reference the official lecture notes on Canvas.
+
+## Plagiarism Notice
+
+We use the Stanford Measure of Software Similarity (MOSS) to detect plagiarism. If your assignment is found to be similar to another student's assignment, both of you will receive a 0 on the assignment. We are serious.
+
+## Contact
+For any questions, please contact the student in charge of the problem set on Telegram @yokurang.
