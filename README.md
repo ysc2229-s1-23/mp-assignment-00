@@ -11,7 +11,6 @@ Remember to consider all edge cases and extreme values while writing your soluti
 A note on the PSET: This PSET contains some easier questions and much harder ones. Some of these problems might take a few minutes depending on your proficiency in Python, and others 2 hours or more. Please do not be discouraged if you are unable to solve some of the problems. In case you are stuck, you may
 
 - Make a post in the GitHub classroom discussion board and I will answer them
-- Message the student in charge of the problem set on Telegram @yokurang
 - Email the peer tutors of the class.
 
 Furthermore, there is no particular order in which you should solve the problem. In fact, in my personal opinion, there is no order that will make the PSET easier. You may choose to solve the problems in any order you wish.
