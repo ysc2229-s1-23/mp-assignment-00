@@ -101,7 +101,7 @@ Try this:
 curl -sSL https://install.python-poetry.org | python3 - --uninstall
 
 # change to required python
-pyenv local 3.10.8 #brew install pyenv if you have not done so already. For Windows users, you will need to install pyenv-win
+pyenv local 3.11.0 #brew install pyenv if you have not done so already. For Windows users, you will need to install pyenv-win
 
 # activate python
 eval "$(pyenv init --path)"
