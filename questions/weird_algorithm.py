@@ -25,9 +25,14 @@ Example:
 Here, for n=3, the sequence is as follows: 
 3 -> 10 -> 5 -> 16 -> 8 -> 4 -> 2 -> 1
 """
-
 from typing import List
 
 def weird_algorithm(n : int) -> List[int]:
-    # TODO: Implement this function
-    pass
+    res = []
+    while n != 1:
+        res.append(n)
+        if  n % 2 == 0:
+            n = n // 2
+        else:
+            n = 3* n + 1
+    return res + [1]

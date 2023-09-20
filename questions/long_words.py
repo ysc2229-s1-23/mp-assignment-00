@@ -27,5 +27,7 @@ that were omitted in between.
 """
 
 def long_words(s: str) -> str:
-    # TODO: Implement the function
-    pass
+    if len(s) > 10:
+        return s[0] + str(len(s)-2) + s[-1]
+    else:
+        return s

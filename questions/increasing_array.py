@@ -36,9 +36,17 @@ to solve this problem within the time limit. Be careful with solutions that have
 time complexity of O(n^2) or worse, as they might not be efficient enough to handle 
 larger inputs within a reasonable time frame.
 """
-
 from typing import List
 
 def increasing_array(n: int, arr: List[int]) -> int:
-    #TODO Implement this function
-    pass
+    count = 0
+
+    # Track the number of times each element must be increased
+    for i in range(1, n):
+        increase = 0
+        if arr[i] < arr[i-1]:
+            increase = arr[i-1] - arr[i]
+            arr[i] += increase
+            count += increase
+
+    return count

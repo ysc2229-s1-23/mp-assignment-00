@@ -1,7 +1,7 @@
 """
 Implements the 'Watermelon Division' algorithm as described below:
 
-Eric and his friend Cartman decided to buy a watermelon. The watermelon weighs w kilos. Both Eric and Cartman are fans of
+Eric and his friend Cartman decided to buy a watermelon. The watermelon weighs n kilos. Both Eric and Cartman are fans of
 even numbers and therefore, they want to divide the watermelon in such a way that each part weighs an even number of
 kilos. It is not mandatory for the parts to be equal. Each of them should get a part of positive weight.
 
@@ -26,7 +26,8 @@ False
 Note:
 If the watermelon weight is even and greater than 2, it can be divided into two even parts.
 """
-
 def watermelon(n: int) -> bool:
-    #TODO Implement this function
-    pass
+    if n % 2 == 0 and n > 2:
+        return True
+    else:
+        return False

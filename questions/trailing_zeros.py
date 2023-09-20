@@ -28,7 +28,14 @@ Note:
 This problem can be solved by calculating the number of factors of 5 in n!, which can be done by repeatedly dividing
 n by 5 until it becomes less than 5. The sum of these quotients gives the number of trailing zeros in n!.
 """
-
 def trailing_zeros(n: int) -> int:
-    #TODO Implement this function
-    pass
+    count = 0
+
+    # While n is greater than or equal to 5
+    while n >= 5:
+        # Divide n by 5 and add to count
+        n = n // 5
+        count += n
+
+    # Return the count of trailing zeros
+    return count

@@ -32,9 +32,19 @@ Remember that for n = 2 or n = 3, there is no possible beautiful permutation, he
 "NO SOLUTION". For n = 1, the function should return [1] as the single number itself is a valid permutation.
 For n > 3, a valid solution does exist. The function should strive to find such a valid solution.
 """
-
 from typing import Union, List
 
 def beautiful_permutations(n: int) -> Union[str, List[int]]:
-    # TODO: Implement this function
-    pass
+    if n == 2 or n == 3:
+        return "NO SOLUTION"
+    
+    # If n is 1, return the single number as a valid permutation
+    if n == 1:
+        return [1]
+    
+    # For n > 3, construct the beautiful permutation
+    # First, put all even numbers in increasing order, then all odd numbers
+    even_numbers = [i for i in range(2, n+1, 2)]
+    odd_numbers = [i for i in range(1, n+1, 2)]
+    
+    return even_numbers + odd_numbers

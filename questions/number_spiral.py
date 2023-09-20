@@ -37,8 +37,15 @@ This problem can be solved by noticing the patterns in the diagonals and using t
 determine the number in a specific cell without constructing the entire grid.
 """
 
-from typing import List, Tuple
-
 def number_spiral(y: int, x: int) -> int:
-    # TODO: Implement this function
-    pass
+    if y > x:
+        if y % 2:
+            ans = (y - 1) ** 2 + x
+        else:
+            ans = y ** 2 - x + 1
+    else:
+        if x % 2:
+            ans = x ** 2 - y + 1
+        else:
+            ans = (x - 1) ** 2 + y
+    return ans
